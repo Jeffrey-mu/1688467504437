@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.1 | 20191019
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, menu, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
+}
+body {
+	line-height: 1;
+}
+menu, ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+
+}
+img,a,i {
+	cursor: pointer;
+}
+#content {
+	margin-top: 20px;
+	padding: 0 15px;
+}
+#content p, li {
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-size: 18px;
+	line-height: 26px;
+}
+#content ul, li {
+	list-style: inside;
+}
+#content h1 {
+	font-family: Helvetica Neue LT, Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+	font-size: 1.8rem;
+	font-weight: 700;
+	letter-spacing: -.025rem;
+	line-height: 1.8rem;
+	margin-bottom: 24px;
+	margin-left: 0;
+	margin-right: 0;
+	outline: none;
+}
+
+.details p {
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.details h1 {
+	font-family: Helvetica Neue LT, Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+	font-size: 1.8rem;
+	font-weight: 700;
+	letter-spacing: -.025rem;
+	line-height: 1.8rem;
+	margin-bottom: 24px;
+	margin-left: 0;
+	margin-right: 0;
+	outline: none;
+}
+
+img {
+	width: 100%;
+	box-sizing: border-box;
+	object-fit: cover;
+}
+
+
+.t_1l {
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+}
+.t_12 {
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+}
+.t_13 {
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:3;
+}
+footer {
+  background-color: rgb(236, 152, 18);
+	color: #fff;
+	text-shadow: 1px 2px 2px red;
+  margin-top: 40px;
+	padding-bottom: 50px;
+}
+footer li{
+	list-style: none;
+	margin: 10px 0;
+}
+ .mobile_menu {
+  width: 0vw;
+  height: 100vh;
+  background: rgba(17, 17, 17, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  z-index: 999999;
+}
+.mobile_menu .mobile_menu_content {
+  width: 80%;
+  height: 100%;
+  background: rgb(236, 152, 18);
+	color: #ffffff;
+}
+.mobile_menu .mobile_menu_content .mobile_menu-close {
+  height: 90px;
+  line-height: 70px;
+  text-align: right;
+  padding-right: 30px;
+  font-size: 40px;
+  border-bottom: 1px solid #b00b0b;
+}
+.mobile_menu .mobile_menu_content ul {
+	overflow: auto;
+	height: calc(100vh - 100px);
+  padding: 20px 40px;
+}
+.mobile_menu .mobile_menu_content ul li {
+	list-style: none;
+  margin: 20px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.mobile_menu .mobile_menu_content ul li a {
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 30px;
+	text-shadow: 1px 2px 2px red;
+}
+.positionFixed {
+	bottom: 0px;
+	left: 50%;
+	position: fixed;
+	transform: translate(-50%, 0%);
+	z-index: 999;
+	width: 100%;
+	background-color: #e4e4e4;
+	display: flex;
+	justify-content: center;
+}
+.positionFixed {
+	bottom: 0px;
+	left: 50%;
+	position: fixed;
+	transform: translate(-50%, 0%);
+	z-index: 999;
+	width: 100%;
+	background-color: #e4e4e4;
+	display: flex;
+	justify-content: center;
+}
+.de_iv_adv {
+  width: 100%;
+  min-height: 8rem;
+  background-color: #e4e4e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0.5rem 0;
+  border-bottom: 0.5rem solid #E4E4E4;
+}
+.t_de {
+	height: 0.2rem;
+	width: 100%;
+	line-height: 0.3rem !important;
+	font-size: 0.6rem;
+	padding: .5rem 0 1rem 0;
+	box-sizing: border-box;
+	color: #707070;
+	text-align: center;
+	margin-bottom: 0 !important;
+	background-color: #e4e4e4;
+}
+.gameMenu {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 99999999;
+  background: #fff;
+  padding: 10px;
+}
+.gameMenu img {
+	width: 40px !important;
+	height: 40px !important;
+}
+.gameButtons {
+  position: fixed;
+  left: 20px;
+  top: 60px;
+  z-index: 99999999;
+}
+.gameButtons img {
+	width: 40px !important;
+	height: 40px !important;
+}
